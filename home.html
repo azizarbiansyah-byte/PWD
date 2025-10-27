@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arbiyan Personal Space</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header id="top">
+      <h1>Arbiyan Personal Space</h1>
+      <p>Informatics Engineering Student</p>
+    </header>
+
+    <section class="content">
+      <article>
+        <h2>Siapa Itu Arbiyan?</h2>
+        <p>Aziz Arbiansyah atau akrab dipanggil Arbi ini adalah mahasiswa Program Studi Teknik Informatika di Universitas Suryakancana Cianjur. Saya lahir di Cianjur pada 2 Februari 2005...</p>
+        <p>Saat ini, saya sedang berada di semester ketiga dan berusaha untuk mencari ilmu sebanyak-banyaknya dari berbagai sumber, baik melalui perkuliahan maupun pengalaman pribadi...</p>
+      </article>
+
+      <article>
+        <h2>lorem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ullam ea dolore nisi alias, vero magnam rem ad! Perspiciatis ipsa minima iusto impedit aspernatur nihil quidem cumque unde delectus! Suscipit.</p>
+      </article>
+
+      <article>
+        <h2>Tujuan dan Harapan</h2>
+        <p>Ingin menjadi pribadi yang lebih baik dan dapat dibangganakan</p>
+      </article>
+
+      <div class="filler"></div>
+    </section>
+
+    <a href="#top" class="to-top" id="toTopBtn">^</a>
+
+    <footer>
+      &copy; 2025 Arbiyan Personal Space
+    </footer>
+
+  </div>
+
+  <script>
+    const toTop = document.getElementById("toTopBtn");
+    window.addEventListener("scroll", function() {
+      if (window.scrollY > 500) {
+        toTop.classList.add("show");
+      } else {
+        toTop.classList.remove("show");
+      }
+    });
+  </script>
+</body>
+</html>
